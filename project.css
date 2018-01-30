@@ -1,0 +1,38 @@
+*{box-sizing: border-box;
+
+}
+
+ul
+{ padding: 0
+}
+:root{
+    background: #980000;
+    color: yellow 
+}
+
+.Tally_list {
+    width: 100%;
+}
+
+.Tally_list li {
+    text-align: center;
+    margin: auto;
+    list-style-type: none;
+    /* border: thin white solid; */
+}
+
+.Clear_fix {
+    content: "";
+    display: table;
+    clear: both;
+}
+@media (min-width: 576px){
+    .Tally_list li {
+        float: left;
+        width: 33%;
+        padding: 25px;
+    }
+}
+@media (min-width: 768px){}
+@media (min-width: 992px){}
+@media (min-width: 1200px){}
