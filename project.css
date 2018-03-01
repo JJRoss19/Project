@@ -1,6 +1,9 @@
 *{box-sizing: border-box;
 
 }
+body{
+font-family: 'PT Sans Narrow', sans-serif;
+}
 
 ul
 { padding: 0
@@ -20,6 +23,15 @@ ul
     list-style-type: none;
     /* border: thin white solid; */
 }
+.USMC_IRON_MAN{
+    text-align: center
+
+}
+
+.Story {
+    text-align: center;
+    clear: both;
+}
 
 .Clear_fix {
     content: "";
@@ -30,9 +42,30 @@ ul
     .Tally_list li {
         float: left;
         width: 33%;
-        padding: 25px;
     }
 }
+img[src*= "runners"]{
+max-width: 300px;
+max-height: 300px;
+}
+
+img[src*="pexels"]{
+max-width: 300px;
+max-height: 300px;
+
+}
+img[src*="761309"]{
+    max-width: 300px;
+    max-height: 300px;
+    }
+
+
+
+.container {
+    display: inline;
+}
+
 @media (min-width: 768px){}
 @media (min-width: 992px){}
 @media (min-width: 1200px){}
+
