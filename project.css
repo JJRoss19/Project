@@ -47,7 +47,7 @@ ul
     display: table;
     clear: both;
 }
-img[src*= "runners"]{
+.runners {
     max-width: 300px;
     max-height: 300px;
     border-radius: 15px;
