@@ -27,45 +27,139 @@ ul
     text-align: center
 
 }
-
+/* Provide story about Marine Corps phyiscal fitness test */
 .Story {
-    text-align: center;
+    text-align: justify;
     clear: both;
+    display:flex;
+    flex-direction: column;
+    margin: 0 5em;
+    
+    
 }
+.Story_title{
+    text-align: center;
+}
+
 
 .Clear_fix {
     content: "";
     display: table;
     clear: both;
 }
+img[src*= "runners"]{
+    max-width: 300px;
+    max-height: 300px;
+    border-radius: 15px;
+    }
+    
+    img[src*="pexels"]{
+    max-width: 300px;
+    max-height: 300px;
+    border-radius: 15px;
+    
+    }
+    img[src*="761309"]{
+        max-width: 300px;
+        max-height: 300px;
+        border-radius: 15px;
+
+        }
+
 @media (min-width: 576px){
     .Tally_list li {
         float: left;
         width: 33%;
     }
-}
-img[src*= "runners"]{
-max-width: 300px;
-max-height: 300px;
-}
 
-img[src*="pexels"]{
-max-width: 300px;
-max-height: 300px;
 
-}
-img[src*="761309"]{
-    max-width: 300px;
-    max-height: 300px;
-    }
-
+} /* end of Media query*/ 
 
 
 .container {
-    display: inline;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    flex-wrap: wrap;
+    margin: 0 5em;
+    border-radius: 15px
+    
+
+    
 }
 
-@media (min-width: 768px){}
-@media (min-width: 992px){}
-@media (min-width: 1200px){}
+@media (min-width: 768px){
+    
+        
+    }
 
+
+}
+@media (min-width: 992px){
+    
+        
+    }
+
+
+}
+@media (min-width: 1200px){
+
+}
+/* type selectors */
+
+/* Email form for JavaScript */
+
+
+
+
+
+.emailheader{
+   display: flex;
+   text-align:center;
+   align-items: center;
+    justify-content: center;
+}
+
+
+
+.emailform1 {
+    
+    background-color:#980000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    /* margin: 0 auto;
+    width: 650px;
+    border: none; */
+}
+
+section {
+    padding: 0 2em 1em;
+}
+label {
+    
+    width: 11em;
+   
+}
+input {
+    width: 12em;
+    margin-left: 1em;
+    margin-bottom: .5em;
+}
+span {
+    color: blue;
+}
+.runtime, 
+.situps,
+.pullups{
+padding: 1em;
+background-color: yellow;
+color:#980000;
+font-size: 50px;
+border-radius: 15px;
+margin-top: .5em
+
+}
