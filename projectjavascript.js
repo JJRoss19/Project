@@ -1,3 +1,6 @@
+// Code to tie to the back end for preformance updates
+
+
 demoArray = document.querySelectorAll (".runners");
 var numbers = [21.31, 18, 66,];
 
@@ -10,7 +13,3 @@ for (var i = 0; i < array.length; i++){
 populateStats (demoArray, numbers);
 
 
-
-// function myFunction(item, index) {
-//     demoArray.innerHTML = demoP.innerHTML + "index" + index + "]: " + item + "<br>";
-// }
