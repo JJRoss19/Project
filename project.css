@@ -12,7 +12,7 @@ ul
     background: #980000;
     color: yellow 
 }
-
+/* 
 .Tally_list {
     width: 100%;
 }
@@ -22,7 +22,7 @@ ul
     margin: auto;
     list-style-type: none;
     
-}
+} */
 .USMC_IRON_MAN{
     text-align: center
 
@@ -61,8 +61,7 @@ img  {
     }
 
 
-} /* end of Media query*/ 
-
+} 
 
 .container {
     
@@ -75,12 +74,16 @@ img  {
     border-radius: 15px
 }
 
-@media (min-width: 768px){      
+@media (max-width: 768px){ 
+    .test{
+        font-size:2em;
     }
-}
+    }
+
 @media (min-width: 992px){   
-    }
+    
 }
+
 @media (min-width: 1200px){
 }
 /* type selectors */
@@ -92,6 +95,8 @@ img  {
    align-items: center;
    justify-content: center;
 }
+
+
 
 
 
